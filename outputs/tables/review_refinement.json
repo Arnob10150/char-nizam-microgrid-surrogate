@@ -1,0 +1,129 @@
+{
+  "history": [
+    {
+      "round": 0,
+      "extra_sims": 0,
+      "cum_seconds": 2.8834311962127686,
+      "lcoe": 0.22796116593662108,
+      "npc": 147077.6284133049,
+      "pv_kw": 35.654517937888144,
+      "wind_units": 2,
+      "batt_kwh": 2.9096316813512715,
+      "diesel_kw": 13.163757085332042,
+      "renew_frac": 0.5054948923413779,
+      "unmet_frac": 0.0,
+      "feasible": true
+    },
+    {
+      "round": 1,
+      "extra_sims": 25,
+      "cum_seconds": 6.348956823348999,
+      "lcoe": 0.2333021696943879,
+      "npc": 150523.5757210902,
+      "pv_kw": 36.11074759481796,
+      "wind_units": 2,
+      "batt_kwh": 3.107594659306187,
+      "diesel_kw": 17.99625197032394,
+      "renew_frac": 0.5060989862683449,
+      "unmet_frac": 0.0,
+      "feasible": true
+    },
+    {
+      "round": 2,
+      "extra_sims": 50,
+      "cum_seconds": 9.946390867233276,
+      "lcoe": 0.21721371134473838,
+      "npc": 140029.02825809966,
+      "pv_kw": 15.069132505028755,
+      "wind_units": 3,
+      "batt_kwh": 11.759814664118096,
+      "diesel_kw": 10.738593883209864,
+      "renew_frac": 0.4954682139410727,
+      "unmet_frac": 0.0008168763904435944,
+      "feasible": false
+    },
+    {
+      "round": 3,
+      "extra_sims": 75,
+      "cum_seconds": 13.430145740509033,
+      "lcoe": 0.2225518024719035,
+      "npc": 143452.80309185584,
+      "pv_kw": 34.13599281403077,
+      "wind_units": 2,
+      "batt_kwh": 3.187476501648632,
+      "diesel_kw": 10.733202984186569,
+      "renew_frac": 0.5033802128947792,
+      "unmet_frac": 0.0009386132742343557,
+      "feasible": true
+    },
+    {
+      "round": 4,
+      "extra_sims": 100,
+      "cum_seconds": 16.677144289016724,
+      "lcoe": 0.22008246058929679,
+      "npc": 141884.24841293308,
+      "pv_kw": 17.934427949015685,
+      "wind_units": 3,
+      "batt_kwh": 6.930524743186453,
+      "diesel_kw": 10.758340071219695,
+      "renew_frac": 0.509397842284348,
+      "unmet_frac": 0.0007756650659478623,
+      "feasible": true
+    },
+    {
+      "round": 5,
+      "extra_sims": 125,
+      "cum_seconds": 20.069451570510864,
+      "lcoe": 0.22129367901535268,
+      "npc": 142775.85113546133,
+      "pv_kw": 33.04588487542125,
+      "wind_units": 2,
+      "batt_kwh": 3.2639862234736654,
+      "diesel_kw": 12.301699920410655,
+      "renew_frac": 0.5017694806402656,
+      "unmet_frac": 0.0,
+      "feasible": true
+    },
+    {
+      "round": 6,
+      "extra_sims": 150,
+      "cum_seconds": 23.58420157432556,
+      "lcoe": 0.21923552169817453,
+      "npc": 139362.294782428,
+      "pv_kw": 32.931451041538466,
+      "wind_units": 2,
+      "batt_kwh": 0.6153290088056167,
+      "diesel_kw": 9.155330216014328,
+      "renew_frac": 0.5015936396299244,
+      "unmet_frac": 0.014745067097593184,
+      "feasible": false
+    }
+  ],
+  "reference": {
+    "de_on_simulator": {
+      "lcoe": 0.21280534786571717,
+      "seconds": 28.689411640167236,
+      "sim_calls": 5060
+    }
+  },
+  "best_feasible": {
+    "round": 4,
+    "extra_sims": 100,
+    "cum_seconds": 16.677144289016724,
+    "lcoe": 0.22008246058929679,
+    "npc": 141884.24841293308,
+    "pv_kw": 17.934427949015685,
+    "wind_units": 3,
+    "batt_kwh": 6.930524743186453,
+    "diesel_kw": 10.758340071219695,
+    "renew_frac": 0.509397842284348,
+    "unmet_frac": 0.0007756650659478623,
+    "feasible": true
+  },
+  "total_extra_sims": 150,
+  "wall_clock_s": 23.58423686027527,
+  "one_shot_lcoe": 0.22796116593662108,
+  "gap_one_shot_pct": 7.121915977632019,
+  "gap_refined_pct": 3.4196098907117523,
+  "sim_budget_ratio": 0.31620553359683795
+}

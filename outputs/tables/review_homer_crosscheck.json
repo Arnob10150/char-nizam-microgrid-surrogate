@@ -1,0 +1,118 @@
+{
+  "reference": "HOMER Pro study of Char Nizam (poster P0050)",
+  "homer_reported": {
+    "pv_kw": 38.6,
+    "wind_units": 21,
+    "batt_kwh": 202.0,
+    "lcoe": 0.426,
+    "npc": 332688.0,
+    "capital": 180135.0
+  },
+  "ours_on_homer_config": [
+    {
+      "diesel_kw": 0.0,
+      "lcoe": 1.030479408390464,
+      "npc": 655776.5745097827,
+      "capital": 602175.2,
+      "renew_frac": 0.7816872207363875,
+      "unmet_frac": 0.013650492305582016
+    },
+    {
+      "diesel_kw": 5.0,
+      "lcoe": 1.0232891273264257,
+      "npc": 659272.4745876351,
+      "capital": 603275.2,
+      "renew_frac": 0.7816872207363875,
+      "unmet_frac": 0.0014246635592728252
+    },
+    {
+      "diesel_kw": 10.0,
+      "lcoe": 1.0263491106795557,
+      "npc": 662155.9311108955,
+      "capital": 604375.2,
+      "renew_frac": 0.7816872207363875,
+      "unmet_frac": 4.739909303523166e-05
+    },
+    {
+      "diesel_kw": 15.0,
+      "lcoe": 1.0306532775088653,
+      "npc": 664964.3115729125,
+      "capital": 605475.2,
+      "renew_frac": 0.7816872207363875,
+      "unmet_frac": 0.0
+    },
+    {
+      "diesel_kw": 23.32,
+      "lcoe": 1.037889460105151,
+      "npc": 669633.0040260965,
+      "capital": 607305.6,
+      "renew_frac": 0.7816872207363875,
+      "unmet_frac": 0.0
+    }
+  ],
+  "comparison_zero_diesel": {
+    "lcoe_ours": 1.030479408390464,
+    "lcoe_homer": 0.426,
+    "lcoe_rel_diff_pct": 141.89657473954557,
+    "npc_ours": 655776.5745097827,
+    "npc_homer": 332688.0,
+    "npc_rel_diff_pct": 97.11458619180215,
+    "capital_ours": 602175.2,
+    "capital_homer": 180135.0,
+    "capital_rel_diff_pct": 234.29105948316536
+  },
+  "capital_reconciliation": {
+    "homer_reported_capital": 180135.0,
+    "wind_at_2300_per_kW": {
+      "value": 602175.2,
+      "rel_diff_pct": 234.29105948316536
+    },
+    "wind_at_2300_per_turbine": {
+      "value": 167475.2,
+      "rel_diff_pct": -7.027951258778132
+    },
+    "wind_line_item_per_kW": 483000,
+    "finding": "Under the per-kW reading the wind line item alone (483,000 $) exceeds the poster's entire reported capital (180,135 $), so the published figures cannot be reconciled with a per-kW turbine cost. The per-turbine reading reproduces the reported capital to within ~7%."
+  },
+  "ours_under_per_turbine_reading": [
+    {
+      "diesel_kw": 0.0,
+      "lcoe": 0.3473970656547641,
+      "npc": 221076.57450978277,
+      "renew_frac": 0.7816872207363875,
+      "unmet_frac": 0.013650492305582016,
+      "capital": 167475.2
+    },
+    {
+      "diesel_kw": 5.0,
+      "lcoe": 0.34856994702540134,
+      "npc": 224572.47458763525,
+      "renew_frac": 0.7816872207363875,
+      "unmet_frac": 0.0014246635592728252,
+      "capital": 168575.2
+    }
+  ],
+  "comparison_per_turbine_reading": {
+    "lcoe_ours": 0.3473970656547641,
+    "lcoe_homer": 0.426,
+    "lcoe_rel_diff_pct": -18.45139303878777,
+    "npc_ours": 221076.57450978277,
+    "npc_homer": 332688.0,
+    "npc_rel_diff_pct": -33.548377305528675
+  },
+  "same_evaluator_comparison": {
+    "our_design": {
+      "lcoe": 0.22828386040530865,
+      "npc": 147181.38148874158,
+      "renew_frac": 0.5057420130527126,
+      "unmet_frac": 0.0007091331900601988
+    },
+    "homer_design_zero_diesel": {
+      "lcoe": 1.030479408390464,
+      "npc": 655776.5745097827,
+      "renew_frac": 0.7816872207363875,
+      "unmet_frac": 0.013650492305582016
+    },
+    "our_design_lcoe_lower_by_pct": 77.84682949056965
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "R4": [
+    {
+      "grid": 4,
+      "evals": 256,
+      "seconds": 1.1181039810180664,
+      "best_lcoe": 0.5318719776986106,
+      "measured": true
+    },
+    {
+      "grid": 6,
+      "evals": 1296,
+      "seconds": 5.668943166732788,
+      "best_lcoe": 0.4038698628205204,
+      "measured": true
+    },
+    {
+      "grid": 8,
+      "evals": 4096,
+      "seconds": 18.14473009109497,
+      "best_lcoe": 0.3159783126055314,
+      "measured": true
+    },
+    {
+      "grid": 10,
+      "evals": 10000,
+      "seconds": 44.56287360191345,
+      "best_lcoe": 0.2430030330777725,
+      "measured": true
+    },
+    {
+      "grid": 12,
+      "evals": 20736,
+      "seconds": 90.43547081947327,
+      "best_lcoe": 0.25862266486151364,
+      "measured": true
+    },
+    {
+      "grid": 14,
+      "evals": 38416,
+      "seconds": 162.68213891983032,
+      "best_lcoe": 0.2195448633607564,
+      "measured": true
+    },
+    {
+      "grid": 16,
+      "evals": 65536,
+      "seconds": 279.6657130718231,
+      "best_lcoe": 0.2131682141685061,
+      "measured": true
+    },
+    {
+      "grid": 20,
+      "evals": 160000,
+      "seconds": 676.0536389350891,
+      "best_lcoe": 0.23002606378930787,
+      "measured": true
+    }
+  ]
+}

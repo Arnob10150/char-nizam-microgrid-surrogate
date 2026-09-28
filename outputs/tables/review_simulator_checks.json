@@ -1,0 +1,12 @@
+{
+  "n_configs": 50,
+  "max_energy_balance_rel_err": 1.0593655894582698e-14,
+  "mean_energy_balance_rel_err": 6.823277455738039e-15,
+  "max_kpi_replay_rel_err": 0.0,
+  "max_capital_rel_err": 0.0,
+  "renew_frac_range": [
+    0.49579891164499457,
+    0.8377919317022515
+  ],
+  "note": "Internal consistency only: hourly load-side energy balance, independent dispatch replay, and cost-table recomputation. No external HOMER Pro run or metered field data is available for this site, so external validation remains open."
+}

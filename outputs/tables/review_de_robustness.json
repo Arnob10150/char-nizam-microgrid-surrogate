@@ -1,0 +1,20 @@
+{
+  "n_seeds": 30,
+  "lcoe_mean": 0.22763288582680954,
+  "lcoe_std": 0.0010607353907692715,
+  "lcoe_min": 0.22507621045904225,
+  "lcoe_max": 0.22939100367403806,
+  "pv_kw_mean": 35.62307207622539,
+  "pv_kw_std": 0.3578126961372659,
+  "batt_kwh_mean": 2.852041665914073,
+  "batt_kwh_std": 0.35824538159527347,
+  "diesel_kw_mean": 12.85783272066748,
+  "diesel_kw_std": 0.8351831551649003,
+  "wind_units_mode": 2,
+  "wind_units_unique": [
+    2
+  ],
+  "frac_feasible": 1.0,
+  "frac_meets_renew": 1.0,
+  "search_s_mean": 2.1116614659627277
+}

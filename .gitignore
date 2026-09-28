@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+node_modules/
+data/*
+!data/nasa_power.json
+artifacts/*.npy
+artifacts/*.npz
+artifacts/corpus.csv
+results/cache/
+blockchain/artifacts/
+blockchain/cache/
+chain/artifacts/
+chain/cache/
+*.log
